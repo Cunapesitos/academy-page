@@ -1,20 +1,18 @@
+import Laravel from "./laravel/Laravel";
+import Nodejs from "./nodejs/Nodejs";
+import NotFound from "../not-found/NotFound";
+
 function Web({ match }: any) {
   const name = match.params.name;
-  return (
-    <div>
-      <h3>
-        Sección de {name} {process.env.REACT_APP_TEST}
-      </h3>
-      <p>
-        Para poder dar los primeros pasos en {name}, necesitas tener instalado
-        lo siguiente:
-      </p>
-      <ul>
-        <li>A</li>
-        <li>B</li>
-      </ul>
-    </div>
-  );
+  const content = match.params.content;
+  switch (name) {
+    case "laravel":
+      return <Laravel content={content} />;
+    case "nodejs":
+      return <Nodejs content={content} />;
+    default:
+      return <NotFound />;
+  }
 }
 
 export default Web;

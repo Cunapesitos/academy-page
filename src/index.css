@@ -1,0 +1,19 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#bx {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+#nv {
+  flex: 0 1 auto !important;
+}
+
+#ct {
+  flex: 1 1 auto !important;
+}

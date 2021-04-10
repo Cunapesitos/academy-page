@@ -11,19 +11,17 @@ import {
 
 function App() {
   return (
-    <div>
+    <div id="bx" className="h-100">
       <Router>
         <Navbar />
-        <div>
-          <Switch>
-            <Route exact path="/">
-              <Redirect to="/home" />
-            </Route>
-            <Route exact path="/home" component={Home} />
-            <Route path="/web/:name" component={Web} />
-            <Route path="*" component={NotFound} />
-          </Switch>
-        </div>
+        <Switch>
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route exact path="/home" component={Home} />
+          <Route path="/web/:name/:content?" component={Web} />
+          <Route path="*" component={NotFound} />
+        </Switch>
       </Router>
     </div>
   );
