@@ -1,22 +1,17 @@
 import MenuLink from "../../menu-link/MenuLink";
-import LaravelContent from "./content/LaravelContent";
+import GitContent from "./content/GitContent";
 
-function Laravel(props: any) {
+function Composer(props: any) {
   let content = props.content;
   const menu: Array<any> = [
     {
-      name: "¿Qué es Laravel?",
+      name: "¿Qué es Git?",
       href: "/",
       submenu: [],
     },
     {
       name: "Requisitos",
       href: "/requisitos",
-      submenu: [],
-    },
-    {
-      name: "Estructura de carpetas",
-      href: "/estructura-de-carpetas",
       submenu: [],
     },
     {
@@ -29,15 +24,15 @@ function Laravel(props: any) {
     <div id="ct" className="container-fluid">
       <div className="row h-100">
         <div className="col-3 border-end border-muted">
-          <h3>Guía de Laravel</h3>
-          <MenuLink baseHref="/web/laravel" menu={menu} />
+          <h3>Guía de Git</h3>
+          <MenuLink baseHref="/herramientas/git" menu={menu} />
         </div>
         <div className="col">
-          <LaravelContent content={content} />
+          <GitContent content={content} />
         </div>
       </div>
     </div>
   );
 }
 
-export default Laravel;
+export default Composer;

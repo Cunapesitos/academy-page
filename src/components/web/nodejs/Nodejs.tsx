@@ -23,7 +23,7 @@ function Nodejs(props: any) {
     <div id="ct" className="container-fluid">
       <div className="row h-100">
         <div className="col-3 border-end border-muted">
-          <h3>Sección de NodeJs</h3>
+          <h3>Guía de NodeJs</h3>
           <div className="list-group list-group-flush">
             {menu.map((item: any, i: number) => {
               return (

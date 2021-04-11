@@ -17,3 +17,7 @@ body,
 #ct {
   flex: 1 1 auto !important;
 }
+
+.href {
+  text-decoration: none;
+}

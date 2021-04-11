@@ -1,22 +1,17 @@
 import MenuLink from "../../menu-link/MenuLink";
-import LaravelContent from "./content/LaravelContent";
+import XamppContent from "./content/XamppContent";
 
-function Laravel(props: any) {
+function Xampp(props: any) {
   let content = props.content;
   const menu: Array<any> = [
     {
-      name: "¿Qué es Laravel?",
+      name: "¿Qué es Xampp?",
       href: "/",
       submenu: [],
     },
     {
       name: "Requisitos",
       href: "/requisitos",
-      submenu: [],
-    },
-    {
-      name: "Estructura de carpetas",
-      href: "/estructura-de-carpetas",
       submenu: [],
     },
     {
@@ -29,15 +24,15 @@ function Laravel(props: any) {
     <div id="ct" className="container-fluid">
       <div className="row h-100">
         <div className="col-3 border-end border-muted">
-          <h3>Guía de Laravel</h3>
-          <MenuLink baseHref="/web/laravel" menu={menu} />
+          <h3>Guía de Xampp</h3>
+          <MenuLink baseHref="/herramientas/xampp" menu={menu} />
         </div>
         <div className="col">
-          <LaravelContent content={content} />
+          <XamppContent content={content} />
         </div>
       </div>
     </div>
   );
 }
 
-export default Laravel;
+export default Xampp;

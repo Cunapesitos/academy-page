@@ -1,22 +1,17 @@
 import MenuLink from "../../menu-link/MenuLink";
-import LaravelContent from "./content/LaravelContent";
+import VisualStudioCodeContent from "./content/ComposerContent";
 
-function Laravel(props: any) {
+function VisualStudioCode(props: any) {
   let content = props.content;
   const menu: Array<any> = [
     {
-      name: "¿Qué es Laravel?",
+      name: "¿Qué es Visual Studio Code?",
       href: "/",
       submenu: [],
     },
     {
       name: "Requisitos",
       href: "/requisitos",
-      submenu: [],
-    },
-    {
-      name: "Estructura de carpetas",
-      href: "/estructura-de-carpetas",
       submenu: [],
     },
     {
@@ -29,15 +24,15 @@ function Laravel(props: any) {
     <div id="ct" className="container-fluid">
       <div className="row h-100">
         <div className="col-3 border-end border-muted">
-          <h3>Guía de Laravel</h3>
-          <MenuLink baseHref="/web/laravel" menu={menu} />
+          <h3>Guía de Visual Studio Code</h3>
+          <MenuLink baseHref="/herramientas/visual-studio-code" menu={menu} />
         </div>
         <div className="col">
-          <LaravelContent content={content} />
+          <VisualStudioCodeContent content={content} />
         </div>
       </div>
     </div>
   );
 }
 
-export default Laravel;
+export default VisualStudioCode;

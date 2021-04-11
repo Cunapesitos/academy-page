@@ -1,16 +1,28 @@
 import Title from "../../../title/Title";
 
-function Requisitos() {
+function WhatIs() {
   return (
-    <p>
-      <div>
-        <div className="container">
-          <Title title="Laravel" />
-          Es un framework utilizado para desarrollar aplicaciones web
-        </div>
+    <div>
+      <div className="container">
+        <Title title="Laravel" />
+        <p>
+          Es un framework basado en PHP, utilizado para desarrollar aplicaciones
+          web.
+        </p>
+        <p>
+          Lo que verás en esta guía es un breve resumen de lo escencial para
+          poder empezar con Laravel.
+        </p>
+        <p>
+          Si necesitas mayor información, aquí tienes el
+          <a href="https://laravel.com/docs" target="_blanc" rel="noreferrer">
+            link
+          </a>
+          de la documentación oficial de laravel.
+        </p>
       </div>
-    </p>
+    </div>
   );
 }
 
-export default Requisitos;
+export default WhatIs;

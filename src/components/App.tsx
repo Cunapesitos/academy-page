@@ -1,6 +1,7 @@
 import Navbar from "./navbar/Navbar";
 import Home from "./home/Home";
 import Web from "./web/Web";
+import Tool from "./tool/Tool";
 import NotFound from "./not-found/NotFound";
 import {
   BrowserRouter as Router,
@@ -20,6 +21,7 @@ function App() {
           </Route>
           <Route exact path="/home" component={Home} />
           <Route path="/web/:name/:content?" component={Web} />
+          <Route path="/herramientas/:name/:content?" component={Tool} />
           <Route path="*" component={NotFound} />
         </Switch>
       </Router>

@@ -2,7 +2,7 @@ import NotFound from "../../../not-found/NotFound";
 import Requirements from "./Requirements";
 import WhatIs from "./WhatIs";
 
-function LaravelContent(props: any) {
+function ComposerContent(props: any) {
   const content = props.content ?? "";
   switch (content) {
     case "requisitos":
@@ -14,4 +14,4 @@ function LaravelContent(props: any) {
   }
 }
 
-export default LaravelContent;
+export default ComposerContent;
