@@ -14,10 +14,10 @@ function WhatIs() {
           poder empezar con Laravel.
         </p>
         <p>
-          Si necesitas mayor información, aquí tienes el 
+          Si necesitas mayor información, aquí tienes el {" "}
           <a href="https://laravel.com/docs" target="_blanc" rel="noreferrer">
             link
-          </a>
+          </a>{" "}
            de la documentación oficial de laravel.
         </p>
       </div>
