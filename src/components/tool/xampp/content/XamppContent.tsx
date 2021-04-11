@@ -1,5 +1,6 @@
 import NotFound from "../../../not-found/NotFound";
 import Requirements from "./Requirements";
+import Instalation from "./WhatIs";
 import WhatIs from "./WhatIs";
 
 function XamppContent(props: any) {
