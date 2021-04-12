@@ -8,8 +8,13 @@ function Presentation(props: any) {
         className={`carousel-item px-5 ${i === 0 ? "active" : ""}`}
         data-bs-interval="900000"
       >
-        <h5 className="col-10 text-start me-auto">
+        <h4 className="col-10 text-start me-auto">
           {slide.description}
+        </h4>
+        <h5>
+          <code>
+            {slide.code}
+          </code>
         </h5>
         <h6 className="col-10 text-end ms-auto">
           <small>

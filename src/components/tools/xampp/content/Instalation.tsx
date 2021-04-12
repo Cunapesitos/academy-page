@@ -31,7 +31,7 @@ function Instalation() {
     },
     {
       imagePath: "/xampp/instalation/7.png",
-      description: "7. Pregúntate si realmente quieres instalar XAMPP."
+      description: "7.Siguie."
     },
     {
       imagePath: "/xampp/instalation/8.png",
