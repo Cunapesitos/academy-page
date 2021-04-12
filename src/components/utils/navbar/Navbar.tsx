@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="nv navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <label className="navbar-brand">Cunapesitos</label>
+        <label className="navbar-brand">Cuñapesitos</label>
         <button
           className="navbar-toggler"
           data-bs-toggle="collapse"
