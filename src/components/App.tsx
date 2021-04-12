@@ -27,23 +27,23 @@ function App() {
         <footer className="bg-dark text-white text-center container-fluid">
           <div className="row">
             <div className="col-3 col-md align-self-center">
-              <a href="https://discord.gg/mxcx6dQVSC" target="_blank">
-                <img src="/icons/discord.png" width="40" height="40" />
+              <a href="https://discord.gg/mxcx6dQVSC" target="_blank" rel="noreferrer">
+                <img src="/icons/discord.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://wa.me/59175364642" target="_blank">
-                <img src="/icons/whatsapp.png" width="40" height="40" />
+              <a href="https://wa.me/59175364642" target="_blank" rel="noreferrer">
+                <img src="/icons/whatsapp.png" width="40" height="40" alt="..." />
               </a>
             </div>
             {/* <div className="col-3 col-md align-self-center">
-              <a href="mailto:jorgerodrigotorrez@gmail.com" target="_blank">
-                <img src="/icons/gmail.png" width="40" height="40" />
+              <a href="mailto:jorgerodrigotorrez@gmail.com" target="_blank" rel="noreferrer">
+                <img src="/icons/gmail.png" width="40" height="40" alt="..." />
               </a>
             </div> */}
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.github.com/JrogeT" target="_blank">
-                <img src="/icons/github.png" width="40" height="40" />
+              <a href="https://www.github.com/JrogeT" target="_blank" rel="noreferrer">
+                <img src="/icons/github.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-12 col-md-3 align-self-center">
@@ -52,18 +52,18 @@ function App() {
                 </small>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.facebook.com/JorgeRodrigoTorrezAramayo" target="_blank">
-                <img src="/icons/facebook.png" width="40" height="40" />
+              <a href="https://www.facebook.com/JorgeRodrigoTorrezAramayo" target="_blank" rel="noreferrer">
+                <img src="/icons/facebook.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.instagram.com/jroge_t" target="_blank">
-                <img src="/icons/instagram.png" width="40" height="40" />
+              <a href="https://www.instagram.com/jroge_t" target="_blank" rel="noreferrer">
+                <img src="/icons/instagram.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.youtube.com/channel/UCSLi91PW9oH9LETcTsDs-5Q" target="_blank">
-                <img src="/icons/youtube.png" width="40" height="40" />
+              <a href="https://www.youtube.com/channel/UCSLi91PW9oH9LETcTsDs-5Q" target="_blank" rel="noreferrer">
+                <img src="/icons/youtube.png" width="40" height="40" alt="..." />
               </a>
             </div>
           </div>
