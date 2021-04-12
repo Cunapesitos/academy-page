@@ -1,7 +1,7 @@
 import Guide from "../../utils/guide/Guide";
 import GitContent from "./content/GitContent";
 
-function Composer(props: any) {
+function Git(props: any) {
   let content = props.content;
   const menu: Array<any> = [
     {
@@ -12,6 +12,11 @@ function Composer(props: any) {
     {
       name: "Requisitos",
       href: "/requisitos",
+      submenu: [],
+    },
+    {
+      name: "Instalación",
+      href: "/instalacion",
       submenu: [],
     },
     {
@@ -32,4 +37,4 @@ function Composer(props: any) {
   );
 }
 
-export default Composer;
+export default Git;

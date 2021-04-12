@@ -1,4 +1,5 @@
 import NotFound from "../../../utils/not-found/NotFound";
+import Instalation from "./Instalation";
 import Requirements from "./Requirements";
 import WhatIs from "./WhatIs";
 
@@ -7,6 +8,8 @@ function GitContent(props: any) {
   switch (content) {
     case "requisitos":
       return <Requirements />;
+    case "instalacion":
+      return <Instalation />;
     case "":
       return <WhatIs />;
     default:
