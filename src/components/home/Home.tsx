@@ -1,9 +1,11 @@
-function Navbar() {
+function Home() {
   return (
-    <div>
-      Home
+    <div className="ct container-fluid">
+      <div className="row h-100">
+        Welcome!
+      </div>
     </div>
   );
 }
 
-export default Navbar;
+export default Home;
