@@ -1,4 +1,4 @@
-import NotFound from "../not-found/NotFound";
+import NotFound from "../utils/not-found/NotFound";
 import Composer from "./composer/Composer";
 import VisualStudioCode from "./visual-studio-code/VisualStudioCode";
 import Git from "./git/Git";

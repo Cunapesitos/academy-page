@@ -1,4 +1,4 @@
-import Title from "../../../title/Title";
+import Title from "../../../utils/title/Title";
 
 function WhatIs() {
   return (

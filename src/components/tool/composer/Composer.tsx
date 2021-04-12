@@ -1,4 +1,4 @@
-import MenuLink from "../../menu-link/MenuLink";
+import Guide from "../../utils/guide/Guide";
 import ComposerContent from "./content/ComposerContent";
 
 function Composer(props: any) {
@@ -21,12 +21,9 @@ function Composer(props: any) {
     },
   ];
   return (
-    <div id="ct" className="container-fluid">
+    <div className="ct container-fluid">
       <div className="row h-100">
-        <div className="col-3 border-end border-muted">
-          <h3>Guía de Composer</h3>
-          <MenuLink baseHref="/herramientas/composer" menu={menu} />
-        </div>
+        <Guide section="herramientas" name="Composer" menu={menu} />
         <div className="col">
           <ComposerContent content={content} />
         </div>

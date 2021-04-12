@@ -1,6 +1,6 @@
-import NotFound from "../../../not-found/NotFound";
+import NotFound from "../../../utils/not-found/NotFound";
 import Requirements from "./Requirements";
-import Instalation from "./WhatIs";
+import Instalation from "./Instalation";
 import WhatIs from "./WhatIs";
 
 function XamppContent(props: any) {
@@ -8,6 +8,8 @@ function XamppContent(props: any) {
   switch (content) {
     case "requisitos":
       return <Requirements />;
+    case "instalacion":
+      return <Instalation />;
     case "":
       return <WhatIs />;
     default:

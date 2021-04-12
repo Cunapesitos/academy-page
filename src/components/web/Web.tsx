@@ -1,6 +1,6 @@
 import Laravel from "./laravel/Laravel";
 import Nodejs from "./nodejs/Nodejs";
-import NotFound from "../not-found/NotFound";
+import NotFound from "../utils/not-found/NotFound";
 
 function Web({ match }: any) {
   const name = match.params.name;

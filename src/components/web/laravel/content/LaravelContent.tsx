@@ -1,5 +1,4 @@
-import NotFound from "../../../not-found/NotFound";
-import Requirements from "./Requirements";
+import NotFound from "../../../utils/not-found/NotFound";import Requirements from "./Requirements";
 import WhatIs from "./WhatIs";
 
 function LaravelContent(props: any) {

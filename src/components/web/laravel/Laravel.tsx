@@ -1,4 +1,4 @@
-import MenuLink from "../../menu-link/MenuLink";
+import Guide from "../../utils/guide/Guide";
 import LaravelContent from "./content/LaravelContent";
 
 function Laravel(props: any) {
@@ -26,12 +26,9 @@ function Laravel(props: any) {
     },
   ];
   return (
-    <div id="ct" className="container-fluid">
+    <div className="ct container-fluid">
       <div className="row h-100">
-        <div className="col-3 border-end border-muted">
-          <h3>Guía de Laravel</h3>
-          <MenuLink baseHref="/web/laravel" menu={menu} />
-        </div>
+        <Guide section="web" name="Laravel" menu={menu} />
         <div className="col">
           <LaravelContent content={content} />
         </div>

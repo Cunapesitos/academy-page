@@ -1,8 +1,8 @@
-import Navbar from "./navbar/Navbar";
+import Navbar from "./utils/navbar/Navbar";
 import Home from "./home/Home";
 import Web from "./web/Web";
 import Tool from "./tool/Tool";
-import NotFound from "./not-found/NotFound";
+import NotFound from "./utils/not-found/NotFound";
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,7 +12,7 @@ import {
 
 function App() {
   return (
-    <div id="bx" className="h-100">
+    <div className="h-100 bx">
       <Router>
         <Navbar />
         <Switch>

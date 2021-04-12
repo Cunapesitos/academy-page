@@ -1,4 +1,4 @@
-import MenuLink from "../../menu-link/MenuLink";
+import Guide from "../../utils/guide/Guide";
 import XamppContent from "./content/XamppContent";
 
 function Xampp(props: any) {
@@ -26,13 +26,10 @@ function Xampp(props: any) {
     },
   ];
   return (
-    <div id="ct" className="container-fluid">
+    <div className="ct container-fluid overflow-auto">
       <div className="row h-100">
-        <div className="col-3 border-end border-muted">
-          <h3>Guía de Xampp</h3>
-          <MenuLink baseHref="/herramientas/xampp" menu={menu} />
-        </div>
-        <div className="col">
+        <Guide section="herramientas" name="Xampp" menu={menu} />
+        <div className="col h-100 overflow-auto">
           <XamppContent content={content} />
         </div>
       </div>

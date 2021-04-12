@@ -1,5 +1,5 @@
-import MenuLink from "../../menu-link/MenuLink";
-import VisualStudioCodeContent from "./content/ComposerContent";
+import Guide from "../../utils/guide/Guide";
+import VisualStudioCodeContent from "./content/VisualStudioCodeContent";
 
 function VisualStudioCode(props: any) {
   let content = props.content;
@@ -21,12 +21,9 @@ function VisualStudioCode(props: any) {
     },
   ];
   return (
-    <div id="ct" className="container-fluid">
+    <div className="ct container-fluid">
       <div className="row h-100">
-        <div className="col-3 border-end border-muted">
-          <h3>Guía de Visual Studio Code</h3>
-          <MenuLink baseHref="/herramientas/visual-studio-code" menu={menu} />
-        </div>
+        <Guide section="herramientas" name="Visual Studio Code" menu={menu} />
         <div className="col">
           <VisualStudioCodeContent content={content} />
         </div>

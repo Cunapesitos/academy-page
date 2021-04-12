@@ -20,7 +20,7 @@ function Nodejs(props: any) {
     },
   ];
   return (
-    <div id="ct" className="container-fluid">
+    <div className="ct container-fluid">
       <div className="row h-100">
         <div className="col-3 border-end border-muted">
           <h3>Guía de NodeJs</h3>
