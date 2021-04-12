@@ -14,7 +14,7 @@ function Instalation() {
     {
       imagePath: "/composer/instalation/3.png",
       description: "3. Puedes instalar Composer en la ruta que desees.",
-      note: "no olvides dónde lo estás instalando"
+      note: "No olvides dónde lo estás instalando"
     },
     {
       imagePath: "/composer/instalation/4.png",
@@ -52,7 +52,7 @@ function Instalation() {
   return (
     <div className="container">
       <Title title="Instalación" />
-      <p>Pasos para instalar composer:</p>
+      <p>Pasos para instalar Composer:</p>
       <div className="col-7 mx-auto">
         <Presentation slides={slides} />
       </div>

@@ -19,7 +19,7 @@ function Instalation() {
     {
       imagePath: "/xampp/instalation/4.png",
       description: "4. Puedes instalar XAMPP en la ruta que desees.",
-      note: "no olvides dónde lo estás instalando"
+      note: "No olvides dónde lo estás instalando"
     },
     {
       imagePath: "/xampp/instalation/5.png",
