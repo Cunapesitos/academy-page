@@ -15,6 +15,11 @@ function Composer(props: any) {
       submenu: [],
     },
     {
+      name: "Instalación",
+      href: "/instalacion",
+      submenu: [],
+    },
+    {
       name: "Configuración",
       href: "/configuracion",
       submenu: [],

@@ -1,7 +1,7 @@
 import Navbar from "./utils/navbar/Navbar";
 import Home from "./home/Home";
 import Web from "./web/Web";
-import Tool from "./tool/Tool";
+import Tool from "./tools/Tools";
 import NotFound from "./utils/not-found/NotFound";
 import {
   BrowserRouter as Router,
