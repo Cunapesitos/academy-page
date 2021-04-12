@@ -32,7 +32,7 @@ function App() {
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://wa.me/59175364642" target="_blank" rel="noreferrer">
+              <a href="https://chat.whatsapp.com/B8yxfloXD9i3mkKwov2OR1" target="_blank" rel="noreferrer">
                 <img src="/icons/whatsapp.png" width="40" height="40" alt="..." />
               </a>
             </div>
@@ -42,7 +42,7 @@ function App() {
               </a>
             </div> */}
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.github.com/JrogeT" target="_blank" rel="noreferrer">
+              <a href="https://www.github.com/Cunapesitos" target="_blank" rel="noreferrer">
                 <img src="/icons/github.png" width="40" height="40" alt="..." />
               </a>
             </div>
@@ -52,17 +52,17 @@ function App() {
                 </small>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.facebook.com/JorgeRodrigoTorrezAramayo" target="_blank" rel="noreferrer">
+              <a href="https://facebook.com/cunapesitos" target="_blank" rel="noreferrer">
                 <img src="/icons/facebook.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.instagram.com/jroge_t" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/cunapesitos_devs" target="_blank" rel="noreferrer">
                 <img src="/icons/instagram.png" width="40" height="40" alt="..." />
               </a>
             </div>
             <div className="col-3 col-md align-self-center">
-              <a href="https://www.youtube.com/channel/UCSLi91PW9oH9LETcTsDs-5Q" target="_blank" rel="noreferrer">
+              <a href="https://www.youtube.com/channel/UCfCMXWA0JN-ljoLBsDHEmqg" target="_blank" rel="noreferrer">
                 <img src="/icons/youtube.png" width="40" height="40" alt="..." />
               </a>
             </div>
